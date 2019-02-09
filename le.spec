@@ -1,12 +1,12 @@
 Summary:	Terminal text editor LE
 Summary(pl.UTF-8):	LE - terminalowy edytor tekstowy
 Name:		le
-Version:	1.15.0
+Version:	1.16.6
 Release:	1
 License:	GPL v2+
 Group:		Applications/Editors
 Source0:	https://github.com/lavv17/le/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	1b144313fc93f3b08e4f48921ee78541
+# Source0-md5:	cb2bfa53175a676228676d730cc1c497
 URL:		https://github.com/lavv17/le
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -35,6 +35,7 @@ Jest nieco podobny do Norton Editora dla DOS-a.
 
 %build
 gnulib-tool --update
+chmod u+x build-aux/git-version-gen
 %{__aclocal} -I m4
 %{__autoconf}
 %{__autoheader}
