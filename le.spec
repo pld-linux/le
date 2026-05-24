@@ -2,7 +2,7 @@ Summary:	Terminal text editor LE
 Summary(pl.UTF-8):	LE - terminalowy edytor tekstowy
 Name:		le
 Version:	1.16.6
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Editors
 Source0:	https://github.com/lavv17/le/archive/v%{version}/%{name}-%{version}.tar.gz
